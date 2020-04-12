@@ -12,22 +12,22 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-// import { GraficaComponent } from './components/grafica/grafica.component';
-// import { IncrementadorComponent } from './components/incrementador/incrementador.component';
+
+// Services
+import { ServiceModule } from './services/service.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    // GraficaComponent,
-    // IncrementadorComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
