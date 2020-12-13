@@ -17,6 +17,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaComponent } from '../components/grafica/grafica.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -27,14 +29,16 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graficas1Component,
     IncrementadorComponent,
     GraficaComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     PAGES_ROUTES,
     SharedModule,
     FormsModule,
     ChartsModule,
-    CommonModule
+    CommonModule,
   ],
   exports: [
     DashboardComponent,

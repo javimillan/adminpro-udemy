@@ -13,9 +13,12 @@ export class GraficaComponent implements OnInit {
   @Input('chartLabels') doughnutChartLabels: string[] = [];
   @Input('chartType') doughnutChartType: string = '';
 
-  constructor() { }
+  constructor() {
+}
 
   ngOnInit(): void {
+    // console.log(this.doughnutChartData)
+
   }
 
 }

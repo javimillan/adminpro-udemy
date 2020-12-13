@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SettingsService, SidebarService, SharedService } from './service.index';
+import { SettingsService, SidebarService, SharedService, RxjsService } from './service.index';
 
 
 
@@ -12,7 +12,8 @@ import { SettingsService, SidebarService, SharedService } from './service.index'
   providers: [
     SettingsService,
     SidebarService,
-    SharedService
+    SharedService,
+    RxjsService
   ]
 })
 export class ServiceModule { }
